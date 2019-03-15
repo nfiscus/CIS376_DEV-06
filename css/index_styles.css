@@ -1,0 +1,72 @@
+@import url("http://fonts.googleapis.com/css?family=Varela+Round");
+
+/*  Author: Nathan Fiscus
+    Date: 3/14/2019
+*/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url(../images/qbkls.png);
+    font-family: "Varela Round";
+}
+
+#header {
+    height: 15%;
+    min-height: 70px;
+    max-height: 125px;;
+    width: 100%;
+    background-color: #E0E0E0;
+    position: fixed;
+    z-index: 1;
+}
+
+#header_text {
+    text-align: center;
+    vertical-align: middle;
+    color: #2F9852;
+    font-weight: bold;
+    font-size: calc(14px + (36 - 14) * ((100vw - 300px) / (1600 - 300)));
+    padding-left: 15%;
+    letter-spacing: 0.2em;
+    position: relative;
+    top: 7px;
+}
+
+#content {
+    height: 1250px;
+    width: 100%;
+    margin: 0;
+}
+
+.rows {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.row_01 {
+    height: 250px;
+    width: 75%;
+    margin: 10px;
+    color: #fff;
+    background-color: #2F9852;
+    text-align: center;
+}
+
+#footer {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 100%;
+    color: #2F9852;
+    background-color: #E0E0E0;
+    position: relative;
+    top: 150px;
+}
